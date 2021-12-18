@@ -1,9 +1,10 @@
 package com.kaykserver.multitechmod.setup;
 
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 public class ClientSetup {
-    public static void init(FMLCommonSetupEvent event) {
+
+    public static void init(FMLClientSetupEvent event) {
 
     }
 }
